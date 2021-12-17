@@ -5,7 +5,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-  
-    <script type="text/javascript" src="main.js"></script>
+    <h1 class="main-page-title">&#10024 Self Care Center &#10024</h1>
+    <h2>Which type of message?</h2>
+    <section class="box1">
+      <form class="selectors">
+        <span>
+          <input type="radio" name="affirmation" value="yes" id="affirmation-btn">
+          <label for="affirmation">affirmation</label>
+        </span>
+        <span>
+          <input type="radio" name="mantra" value="no" id="mantra-btn">
+          <label for="mantra">mantra</label>
+        </span>
+      </form>
+      <div class="receive-message-button">
+        <button id="receive-message-btn">Receive Message</button>
+      </div>
+    </section>
+    <section class="box2">
+      <img class="image" id="meditation-graphic" src="/Users/georgelemmon/turing/mod1/project3/self-care-center/assets/meditate.svg" alt="meditation graphic" height="70" width="70">
+      <p class="returned-statement"></p>
+    </section>
+    <div class="clear-message-button">
+      <button id="clear-message-btn">Clear Message</button>
+    </div>
   </body>
+  <script type="text/javascript" src="main.js"></script>
 </html>
